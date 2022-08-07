@@ -28,6 +28,9 @@ header p {
     color: #ddccbb;
     background-color: #86af80;
 }
+.barra a{
+    color: #232323;
+}
 .barra ul{
     display: flex;
     padding: 10px;
@@ -45,14 +48,13 @@ section#cover {
     text-align: center;
 
 }
-section#corpo {
+.corpo {
     display: flex;
-    justify-content: space-between;
     margin: 30px;
     padding: 5px;
     color:#ddccbb ;
 }
-#corpo h2{
+.corpo h2{
     margin: 10px;
 }
 section .post{
@@ -68,4 +70,33 @@ section .post{
 }
 .post h2{
     color: #87ceeb;
+}
+.nome{
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    color:#ddccbb ;
+}
+.nome h1{
+    font-size: 35px;
+    color: #e8ae5b;
+    
+    
+ 
+}
+.nome img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.about{
+    border: 1px solid #ddccbb;
+    border-radius: 10px;
+    padding: 15px;
+    color: #86af80;
+
+}
+.certificados {
+    display: flex;
+    
 }
